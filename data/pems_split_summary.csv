@@ -1,0 +1,5 @@
+dataset,nodes,raw_time_steps,sampling_interval_minutes,train_windows,val_windows,test_windows,fewshot_1pct_windows,fewshot_5pct_windows,fewshot_10pct_windows,start_month,end_month
+PEMS03,358,26208,5,15711,5237,5237,157,786,1571,2018-09,2018-11
+PEMS04,307,16992,5,10181,3394,3394,102,509,1018,2018-01,2018-02
+PEMS07,883,28224,5,16921,5640,5640,169,846,1692,2017-05,2017-08
+PEMS08,170,17856,5,10699,3567,3567,107,535,1070,2016-07,2016-08
