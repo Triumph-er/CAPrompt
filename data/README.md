@@ -11,4 +11,3 @@ The experiments use four five-minute traffic-flow benchmarks: PEMS03, PEMS04, PE
 
 The local experimental data use the layout `data/<dataset>/{train,val,test}.npz`. Each archive stores `x` (windows × 12 history steps × sensors × 3 channels), `y` (windows × 12 prediction steps × sensors × 1 channel), `x_offsets` (−11 to 0), and `y_offsets` (1 to 12). Target adaptation uses the first chronologically ordered windows from the target training split, with counts specified in `pems_split_summary.csv`. The full target validation split is used for checkpoint selection, and the test split is reserved for final evaluation.
 
-Neither the raw benchmark archives nor the processed `.npz` split files are distributed in this repository. The checksums allow readers who already have the processed files to verify their identity; they cannot be used to download or reconstruct the files.
